@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #e53935;
+  --color-brand-yellow: #ffc107;
+  --color-brand-white: #ffffff;
+  --color-brand-dark: #222222;
+  --color-brand-cream: #fff8e7;
+  --color-brand-soft: #fff5db;
+  --color-brand-border: #f1dfaa;
+  --font-display: "Merriweather", serif;
+  --font-body: "Poppins", sans-serif;
+  --shadow-premium: 0 18px 45px rgba(229, 57, 53, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 193, 7, 0.22), transparent 26%),
+    radial-gradient(circle at top left, rgba(229, 57, 53, 0.1), transparent 28%),
+    linear-gradient(180deg, #fffefb 0%, #fff8e7 48%, #ffffff 100%);
+  color: var(--color-brand-dark);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #e53935 0%, #ff9800 60%, #ffc107 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(241, 223, 170, 0.9);
+  box-shadow: 0 16px 38px rgba(34, 34, 34, 0.08);
+}
+
+.page-shell {
+  width: 100%;
+  overflow-x: clip;
+}
+
+.container-shell {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .container-shell {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-shell {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -92,7 +92,7 @@ export const products = [
     ingredients: ['Coriander Seeds'],
     tags: ['Hygienically Packed', 'Laboratory Tested', 'Premium Quality'],
     nutrition: { energy: '298 kcal', protein: '12g', carbs: '55g', fat: '5g' },
-    image: 'https://images.unsplash.com/photo-1599909536265-be77035d5f5c?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=80',
   },
   {
     id: 6,
@@ -111,7 +111,7 @@ export const products = [
     ingredients: ['Premium Red Chilli'],
     tags: ['Hygienically Packed', 'Laboratory Tested', 'Premium Quality'],
     nutrition: { energy: '282 kcal', protein: '13g', carbs: '49g', fat: '6g' },
-    image: 'https://images.unsplash.com/photo-1583225157631-f3a40b9d7712?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1604908176997-431c1f1cfec7?auto=format&fit=crop&w=900&q=80',
   },
   {
     id: 7,
@@ -130,7 +130,7 @@ export const products = [
     ingredients: ['Turmeric Fingers'],
     tags: ['Hygienically Packed', 'Laboratory Tested', 'Premium Quality'],
     nutrition: { energy: '312 kcal', protein: '8g', carbs: '67g', fat: '3g' },
-    image: 'https://images.unsplash.com/photo-1615485925873-7ecbbe90e65a?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=900&q=80',
   },
   {
     id: 8,
